@@ -1,5 +1,5 @@
 version: 2
-project_name: opencode
+project_name: elliecode
 before:
   hooks:
 builds:
@@ -18,7 +18,7 @@ builds:
 archives:
   - format: tar.gz
     name_template: >-
-      opencode-
+      elliecode-
       {{- if eq .Os "darwin" }}mac-
       {{- else if eq .Os "windows" }}windows-
       {{- else if eq .Os "linux" }}linux-{{end}}
@@ -34,23 +34,23 @@ checksum:
 snapshot:
   name_template: "0.0.0-{{ .Timestamp }}"
 aurs:
-  - name: opencode-ai
+  - name: elliecode-ai
     homepage: "https://github.com/beyondEllie/elliecode"
     description: "terminal based agent that can build anything"
     maintainers:
       - "kujtimiihoxha <kujtimii.h@gmail.com>"
     license: "MIT"
     private_key: "{{ .Env.AUR_KEY }}"
-    git_url: "ssh://aur@aur.archlinux.org/opencode-ai-bin.git"
+    git_url: "ssh://aur@aur.archlinux.org/elliecode-ai-bin.git"
     provides:
-      - opencode
+      - elliecode
     conflicts:
-      - opencode
+      - elliecode
     package: |-
-      install -Dm755 ./opencode "${pkgdir}/usr/bin/opencode"
+      install -Dm755 ./elliecode "${pkgdir}/usr/bin/elliecode"
 brews:
   - repository:
-      owner: opencode-ai
+      owner: elliecode-ai
       name: homebrew-tap
 nfpms:
   - maintainer: kujtimiihoxha

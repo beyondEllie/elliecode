@@ -98,7 +98,7 @@ func lspsConfigured(width int) string {
 }
 
 func logo(width int) string {
-	logo := fmt.Sprintf("%s %s", styles.ellieCodeIcon, "ellieCode")
+	logo := fmt.Sprintf("%s %s", styles.EllieCodeIcon, "ellieCode")
 	t := theme.CurrentTheme()
 	baseStyle := styles.BaseStyle()
 

@@ -238,12 +238,12 @@
         ".cursor/rules/",
         "CLAUDE.md",
         "CLAUDE.local.md",
-        "opencode.md",
-        "opencode.local.md",
+        "elliecode.md",
+        "elliecode.local.md",
         "ellieCode.md",
         "ellieCode.local.md",
-        "OPENCODE.md",
-        "OPENCODE.local.md"
+        "ELLIECODE.md",
+        "ELLIECODE.local.md"
       ],
       "description": "Context paths for the application",
       "items": {
@@ -255,7 +255,7 @@
       "description": "Storage configuration",
       "properties": {
         "directory": {
-          "default": ".opencode",
+          "default": ".elliecode",
           "description": "Directory where application data is stored",
           "type": "string"
         }
@@ -397,10 +397,10 @@
       "description": "Terminal User Interface configuration",
       "properties": {
         "theme": {
-          "default": "opencode",
+          "default": "elliecode",
           "description": "TUI theme name",
           "enum": [
-            "opencode",
+            "elliecode",
             "catppuccin",
             "dracula",
             "flexoki",

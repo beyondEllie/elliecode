@@ -13,10 +13,10 @@ import (
 	"github.com/alecthomas/chroma/v2/lexers"
 	"github.com/alecthomas/chroma/v2/styles"
 	"github.com/aymanbagabas/go-udiff"
-	"github.com/charmbracelet/lipgloss"
-	"github.com/charmbracelet/x/ansi"
 	"github.com/beyondEllie/elliecode/internal/config"
 	"github.com/beyondEllie/elliecode/internal/tui/theme"
+	"github.com/charmbracelet/lipgloss"
+	"github.com/charmbracelet/x/ansi"
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
 
@@ -344,7 +344,7 @@ func SyntaxHighlight(w io.Writer, source, fileName, formatter string, bg lipglos
 
 	// Dynamic theme based on current theme values
 	syntaxThemeXml := fmt.Sprintf(`
-	<style name="opencode-theme">
+	<style name="elliecode-theme">
 	<!-- Base colors -->
 	<entry type="Background" style="bg:%s"/>
 	<entry type="Text" style="%s"/>

@@ -124,7 +124,7 @@ func newCopilotClient(opts providerClientOptions) CopilotClient {
 		}
 
 		if githubToken == "" {
-			logging.Error("GitHub token is required for Copilot provider. Set GITHUB_TOKEN environment variable, configure it in opencode.json, or ensure GitHub CLI/Copilot is properly authenticated.")
+			logging.Error("GitHub token is required for Copilot provider. Set GITHUB_TOKEN environment variable, configure it in elliecode.json, or ensure GitHub CLI/Copilot is properly authenticated.")
 			return &copilotClient{
 				providerOptions: opts,
 				options:         copilotOpts,

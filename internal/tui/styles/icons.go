@@ -1,7 +1,7 @@
 package styles
 
 const (
-	ellieCodeIcon string = "⌬"
+	EllieCodeIcon string = "⌬"
 
 	CheckIcon    string = "✓"
 	ErrorIcon    string = "✖"

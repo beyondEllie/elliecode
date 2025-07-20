@@ -272,5 +272,5 @@ func NewellieCodeTheme() *ellieCodeTheme {
 
 func init() {
 	// Register the ellieCode theme with the theme manager
-	RegisterTheme("opencode", NewellieCodeTheme())
+	RegisterTheme("elliecode", NewellieCodeTheme())
 }
