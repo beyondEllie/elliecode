@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/opencode-ai/opencode/internal/db"
-	"github.com/opencode-ai/opencode/internal/pubsub"
+	"github.com/beyondEllie/elliecode/internal/db"
+	"github.com/beyondEllie/elliecode/internal/pubsub"
 )
 
 const (

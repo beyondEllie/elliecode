@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/opencode-ai/opencode/cmd"
-	"github.com/opencode-ai/opencode/internal/logging"
+	"github.com/beyondEllie/elliecode/cmd"
+	"github.com/beyondEllie/elliecode/internal/logging"
 )
 
 func main() {

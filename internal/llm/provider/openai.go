@@ -11,11 +11,11 @@ import (
 	"github.com/openai/openai-go"
 	"github.com/openai/openai-go/option"
 	"github.com/openai/openai-go/shared"
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/llm/tools"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/message"
+	"github.com/beyondEllie/elliecode/internal/config"
+	"github.com/beyondEllie/elliecode/internal/llm/models"
+	"github.com/beyondEllie/elliecode/internal/llm/tools"
+	"github.com/beyondEllie/elliecode/internal/logging"
+	"github.com/beyondEllie/elliecode/internal/message"
 )
 
 type openaiOptions struct {

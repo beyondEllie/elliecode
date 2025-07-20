@@ -8,16 +8,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/llm/prompt"
-	"github.com/opencode-ai/opencode/internal/llm/provider"
-	"github.com/opencode-ai/opencode/internal/llm/tools"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/message"
-	"github.com/opencode-ai/opencode/internal/permission"
-	"github.com/opencode-ai/opencode/internal/pubsub"
-	"github.com/opencode-ai/opencode/internal/session"
+	"github.com/beyondEllie/elliecode/internal/config"
+	"github.com/beyondEllie/elliecode/internal/llm/models"
+	"github.com/beyondEllie/elliecode/internal/llm/prompt"
+	"github.com/beyondEllie/elliecode/internal/llm/provider"
+	"github.com/beyondEllie/elliecode/internal/llm/tools"
+	"github.com/beyondEllie/elliecode/internal/logging"
+	"github.com/beyondEllie/elliecode/internal/message"
+	"github.com/beyondEllie/elliecode/internal/permission"
+	"github.com/beyondEllie/elliecode/internal/pubsub"
+	"github.com/beyondEllie/elliecode/internal/session"
 )
 
 // Common errors

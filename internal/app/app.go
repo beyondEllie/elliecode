@@ -9,17 +9,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/db"
-	"github.com/opencode-ai/opencode/internal/format"
-	"github.com/opencode-ai/opencode/internal/history"
-	"github.com/opencode-ai/opencode/internal/llm/agent"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/lsp"
-	"github.com/opencode-ai/opencode/internal/message"
-	"github.com/opencode-ai/opencode/internal/permission"
-	"github.com/opencode-ai/opencode/internal/session"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
+	"github.com/beyondEllie/elliecode/internal/config"
+	"github.com/beyondEllie/elliecode/internal/db"
+	"github.com/beyondEllie/elliecode/internal/format"
+	"github.com/beyondEllie/elliecode/internal/history"
+	"github.com/beyondEllie/elliecode/internal/llm/agent"
+	"github.com/beyondEllie/elliecode/internal/logging"
+	"github.com/beyondEllie/elliecode/internal/lsp"
+	"github.com/beyondEllie/elliecode/internal/message"
+	"github.com/beyondEllie/elliecode/internal/permission"
+	"github.com/beyondEllie/elliecode/internal/session"
+	"github.com/beyondEllie/elliecode/internal/tui/theme"
 )
 
 type App struct {

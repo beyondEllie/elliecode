@@ -7,16 +7,16 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/lsp"
-	"github.com/opencode-ai/opencode/internal/lsp/protocol"
-	"github.com/opencode-ai/opencode/internal/pubsub"
-	"github.com/opencode-ai/opencode/internal/session"
-	"github.com/opencode-ai/opencode/internal/tui/components/chat"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
-	"github.com/opencode-ai/opencode/internal/tui/util"
+	"github.com/beyondEllie/elliecode/internal/config"
+	"github.com/beyondEllie/elliecode/internal/llm/models"
+	"github.com/beyondEllie/elliecode/internal/lsp"
+	"github.com/beyondEllie/elliecode/internal/lsp/protocol"
+	"github.com/beyondEllie/elliecode/internal/pubsub"
+	"github.com/beyondEllie/elliecode/internal/session"
+	"github.com/beyondEllie/elliecode/internal/tui/components/chat"
+	"github.com/beyondEllie/elliecode/internal/tui/styles"
+	"github.com/beyondEllie/elliecode/internal/tui/theme"
+	"github.com/beyondEllie/elliecode/internal/tui/util"
 )
 
 type StatusCmp interface {

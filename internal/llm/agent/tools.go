@@ -3,12 +3,12 @@ package agent
 import (
 	"context"
 
-	"github.com/opencode-ai/opencode/internal/history"
-	"github.com/opencode-ai/opencode/internal/llm/tools"
-	"github.com/opencode-ai/opencode/internal/lsp"
-	"github.com/opencode-ai/opencode/internal/message"
-	"github.com/opencode-ai/opencode/internal/permission"
-	"github.com/opencode-ai/opencode/internal/session"
+	"github.com/beyondEllie/elliecode/internal/history"
+	"github.com/beyondEllie/elliecode/internal/llm/tools"
+	"github.com/beyondEllie/elliecode/internal/lsp"
+	"github.com/beyondEllie/elliecode/internal/message"
+	"github.com/beyondEllie/elliecode/internal/permission"
+	"github.com/beyondEllie/elliecode/internal/session"
 )
 
 func CoderAgentTools(

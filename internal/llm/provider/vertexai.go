@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/opencode-ai/opencode/internal/logging"
+	"github.com/beyondEllie/elliecode/internal/logging"
 	"google.golang.org/genai"
 )
 
