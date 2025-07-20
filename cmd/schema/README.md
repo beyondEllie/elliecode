@@ -1,6 +1,6 @@
-# OpenCode Configuration Schema Generator
+# ellieCode Configuration Schema Generator
 
-This tool generates a JSON Schema for the OpenCode configuration file. The schema can be used to validate configuration files and provide autocompletion in editors that support JSON Schema.
+This tool generates a JSON Schema for the ellieCode configuration file. The schema can be used to validate configuration files and provide autocompletion in editors that support JSON Schema.
 
 ## Usage
 

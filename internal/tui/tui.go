@@ -5,9 +5,6 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/charmbracelet/bubbles/key"
-	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/lipgloss"
 	"github.com/beyondEllie/elliecode/internal/app"
 	"github.com/beyondEllie/elliecode/internal/config"
 	"github.com/beyondEllie/elliecode/internal/llm/agent"
@@ -22,6 +19,9 @@ import (
 	"github.com/beyondEllie/elliecode/internal/tui/page"
 	"github.com/beyondEllie/elliecode/internal/tui/theme"
 	"github.com/beyondEllie/elliecode/internal/tui/util"
+	"github.com/charmbracelet/bubbles/key"
+	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
 )
 
 type keyMap struct {
@@ -924,9 +924,9 @@ func New(app *app.App) tea.Model {
 	model.RegisterCommand(dialog.Command{
 		ID:          "init",
 		Title:       "Initialize Project",
-		Description: "Create/Update the OpenCode.md memory file",
+		Description: "Create/Update the ellieCode.md memory file",
 		Handler: func(cmd dialog.Command) tea.Cmd {
-			prompt := `Please analyze this codebase and create a OpenCode.md file containing:
+			prompt := `Please analyze this codebase and create a ellieCode.md file containing:
 1. Build/lint/test commands - especially for running a single test
 2. Code style guidelines including imports, formatting, types, naming conventions, error handling, etc.
 

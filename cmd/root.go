@@ -7,8 +7,6 @@ import (
 	"sync"
 	"time"
 
-	tea "github.com/charmbracelet/bubbletea"
-	zone "github.com/lrstanley/bubblezone"
 	"github.com/beyondEllie/elliecode/internal/app"
 	"github.com/beyondEllie/elliecode/internal/config"
 	"github.com/beyondEllie/elliecode/internal/db"
@@ -18,13 +16,15 @@ import (
 	"github.com/beyondEllie/elliecode/internal/pubsub"
 	"github.com/beyondEllie/elliecode/internal/tui"
 	"github.com/beyondEllie/elliecode/internal/version"
+	tea "github.com/charmbracelet/bubbletea"
+	zone "github.com/lrstanley/bubblezone"
 	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{
 	Use:   "opencode",
 	Short: "Terminal-based AI assistant for software development",
-	Long: `OpenCode is a powerful terminal-based AI assistant that helps with software development tasks.
+	Long: `ellieCode is a powerful terminal-based AI assistant that helps with software development tasks.
 It provides an interactive chat interface with AI capabilities, code analysis, and LSP integration
 to assist developers in writing, debugging, and understanding code directly from the terminal.`,
 	Example: `

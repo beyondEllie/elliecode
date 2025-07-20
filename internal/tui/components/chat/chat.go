@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/charmbracelet/lipgloss"
-	"github.com/charmbracelet/x/ansi"
 	"github.com/beyondEllie/elliecode/internal/config"
 	"github.com/beyondEllie/elliecode/internal/message"
 	"github.com/beyondEllie/elliecode/internal/session"
 	"github.com/beyondEllie/elliecode/internal/tui/styles"
 	"github.com/beyondEllie/elliecode/internal/tui/theme"
 	"github.com/beyondEllie/elliecode/internal/version"
+	"github.com/charmbracelet/lipgloss"
+	"github.com/charmbracelet/x/ansi"
 )
 
 type SendMsg struct {
@@ -98,7 +98,7 @@ func lspsConfigured(width int) string {
 }
 
 func logo(width int) string {
-	logo := fmt.Sprintf("%s %s", styles.OpenCodeIcon, "OpenCode")
+	logo := fmt.Sprintf("%s %s", styles.ellieCodeIcon, "ellieCode")
 	t := theme.CurrentTheme()
 	baseStyle := styles.BaseStyle()
 
@@ -138,4 +138,3 @@ func cwd(width int) string {
 		Width(width).
 		Render(cwd)
 }
-

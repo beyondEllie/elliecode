@@ -108,7 +108,7 @@
       "type": "object"
     }
   },
-  "description": "Configuration schema for the OpenCode application",
+  "description": "Configuration schema for the ellieCode application",
   "properties": {
     "agents": {
       "additionalProperties": {
@@ -240,8 +240,8 @@
         "CLAUDE.local.md",
         "opencode.md",
         "opencode.local.md",
-        "OpenCode.md",
-        "OpenCode.local.md",
+        "ellieCode.md",
+        "ellieCode.local.md",
         "OPENCODE.md",
         "OPENCODE.local.md"
       ],
@@ -420,6 +420,6 @@
       "type": "string"
     }
   },
-  "title": "OpenCode Configuration",
+  "title": "ellieCode Configuration",
   "type": "object"
 }
