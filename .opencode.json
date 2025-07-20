@@ -1,8 +1,0 @@
-{
-  "$schema": "./elliecode-schema.json",
-  "lsp": {
-    "gopls": {
-      "command": "gopls"
-    }
-  }
-}
