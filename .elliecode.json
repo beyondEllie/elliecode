@@ -1,0 +1,34 @@
+{
+  "data": {
+    "directory": ".elliecode"
+  },
+  "$schema": "./elliecode-schema.json",
+  "lsp": {
+    "gopls": {
+      "command": "gopls"
+    }
+  },
+  "providers": {
+    "openai": {
+      "apiKey": "",
+      "disabled": false
+    }
+  },
+  "agents": {
+    "coder": {
+      "model": "gpt-4.1",
+      "maxTokens": 5000,
+      "reasoningEffort": "medium"
+    },
+    "task": {
+      "model": "gpt-4.1-mini",
+      "maxTokens": 5000
+    },
+    "title": {
+      "model": "gpt-4.1-mini",
+      "maxTokens": 80
+    }
+  },
+  "debug": false,
+  "autoCompact": true
+} 
